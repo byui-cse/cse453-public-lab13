@@ -1,3 +1,0 @@
-import ui
-
-ui.main()

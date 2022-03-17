@@ -2,36 +2,30 @@
 # COMPONENT:
 #    EXAMPLE
 # Author:
-#    Br. Helfrich, Kyle Mueller, <your name here if you made a change>
+#    Br. Helfrich, Kyle Mueller
 # Summary: 
-#    A simple Caesar Cipher to show what each python file should contain
+#    A simple Caesar Cipher to show what your cipher file should contain
 ########################################################################
 
-import cipher
 
 ##################################################
-# EXAMPLE
+# EXAMPLE CIPHER
 ##################################################
-class Example(cipher.Cipher):
+class Example:
     def __init__(self):
         # minimum "printable" character
         self._value_minimum = ' '
         # maximum "printable" character
         self._value_maximum = '~'
         # size of alphabet used
-        self._size_alphabet = ord(self._value_maximum) - ord(self._value_minimum) + 1
+        self._size_alphabet = ord(self._value_maximum) \
+                              - ord(self._value_minimum) + 1
 
-    def get_pseudo_auth(self):
+    def get_author_name(self):
         return "Brother Helfrich, adapted to Python by Kyle Mueller"
 
     def get_cipher_name(self):
         return "Caesar Cipher"
-
-    def get_encrypt_auth(self):
-        return "Brother Helfrich, adapted to Python by Kyle Mueller"
-    
-    def get_decrypt_auth(self):
-        return "Brother Helfrich, adapted to Python by Kyle Mueller"
 
     ############################################################
     # GET CIPHER CITATION
