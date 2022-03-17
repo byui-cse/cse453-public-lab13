@@ -21,7 +21,7 @@ class Example:
         self._size_alphabet = ord(self._value_maximum) \
                               - ord(self._value_minimum) + 1
 
-    def get_author_name(self):
+    def get_author(self):
         return "Brother Helfrich, adapted to Python by Kyle Mueller"
 
     def get_cipher_name(self):

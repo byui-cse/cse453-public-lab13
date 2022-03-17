@@ -8,7 +8,8 @@
 #    cipher.
 ########################################################################
 
-import example # TODO: replace with your cipher class
+import example
+import cipher
 
 #############################################################
 # GET REPORT
@@ -34,7 +35,7 @@ def get_report(cipher):
             "Cipher Name:    "
             f"{cipher.get_cipher_name()}\n" \
             "Student Name:   "
-            f"{cipher.get_author_name()}\n" \
+            f"{cipher.get_author()}\n" \
             "==================================="
             "===================================\n"
             "Citation:\n"
@@ -56,9 +57,9 @@ def get_report(cipher):
 #####################################################################
 def main():
 
-    cipher = example.Example() # TODO: replace with your cipher class
+    the_cipher = example.Example() # TODO: replace with your cipher class
 
-    get_report(cipher)  # generate the report
+    get_report(the_cipher)  # generate the report
 
 
 if __name__ == "__main__":

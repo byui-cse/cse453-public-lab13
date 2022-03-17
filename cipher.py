@@ -12,12 +12,12 @@
 ##############################################################################
 # CIPHER
 ##############################################################################
-class Cipher01:
+class Cipher:
     def __init__(self):
         # TODO: Insert anything you need for your cipher here
         pass
 
-    def get_author_name(self):
+    def get_author(self):
         # TODO: Return your name
         return "author"
 
