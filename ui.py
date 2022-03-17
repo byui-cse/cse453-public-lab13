@@ -80,12 +80,12 @@ class UI:
         # get the text
         self._plaintext = input("Please enter the text: ")
         if self._plaintext == "":
-            self._plaintext = "I am just \"plain\" text."
+            self._plaintext = "I am just \"plain\" text ~ 12345."
 
         # get the password
         self._password = input("Please enter the password: ")
         if self._password == "":
-            self._password = "Passw0rd!"
+            self._password = "P@55w0rd!"
             print(f"Default password: {self._password}")
 
     #############################################################
