@@ -1,7 +1,9 @@
 # Lab 13 - Implement a cipher
 
 lab13.py - Contains code to run the cipher
-example.py - An example cipher.
+
+example.py - An example of a cipher. Please look at this file if you would like to know what needs to be done.
+
 cipher01.py - This is where you should implement your cipher
 
 
@@ -9,7 +11,7 @@ cipher01.py - This is where you should implement your cipher
 
 1. Run the program with the example cipher to see how it works:
 
-`python lab13.py`
+    `python lab13.py`
 
 2. Implement your cipher in cipher01.py, filling in all the TODOs
 
